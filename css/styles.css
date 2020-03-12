@@ -1,0 +1,52 @@
+.container {max-width: 800px;
+            margin: auto;
+            background: lightskyblue;
+            border-style:outset;
+            height: auto;
+            padding-bottom: 40px;}
+
+
+.pokemon {
+    border-style: inset;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 10px;
+    height: auto;
+    }
+
+label {font-weight: bold;}
+
+button{margin-top: 10px;
+    text-align: center;}
+
+input{font-size: 12px;}
+
+h2 {margin-top: 30px;
+    font-size: 15px;
+    color: #81A594;}
+
+h3 {margin-top: 30px;
+    font-size: 15px;
+    color: black;}
+
+img {max-height: 80px;}
+
+#error {text-align: center;}
+
+#loading-image {padding-top: 5px;
+                text-align: center;}
+
+form {text-align: center;}
+
+body {background-color: lightgrey}
+
+@media screen and (max-width: 768px) {
+    h2{text-align: center;}
+    h3{text-align: center;}
+    img{max-height:100px;
+        max-width:100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+
+}
